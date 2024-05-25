@@ -1,0 +1,27 @@
+/* frontend/src/components/atoms/Button/Button.module.css */
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.primary {
+  background-color: #0070f3;
+}
+
+.primary:hover {
+  background-color: #005bb5;
+}
+
+.secondary {
+  background-color: #6c757d;
+}
+
+.secondary:hover {
+  background-color: #5a6268;
+}

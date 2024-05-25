@@ -1,0 +1,29 @@
+/* frontend/src/components/atoms/Header/Header.module.css */
+
+.header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navItem {
+  margin: 0 15px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navItem a:hover {
+  text-decoration: underline;
+}
